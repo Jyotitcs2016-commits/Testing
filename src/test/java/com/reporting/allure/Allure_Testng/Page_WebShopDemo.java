@@ -26,6 +26,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
@@ -35,8 +36,8 @@ import org.testng.annotations.AfterSuite;
 
 
 @Epic("Allure reports example")
-@Feature("Test DemoWebShop- login")
-public class NewTest {
+@Feature("Test DemoWebShop- login Page")
+public class Page_WebShopDemo {
 	
 	WebDriver driver;
 	String url="http://demowebshop.tricentis.com/";

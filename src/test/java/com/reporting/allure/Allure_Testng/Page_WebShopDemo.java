@@ -43,9 +43,9 @@ public class Page_WebShopDemo {
 	String url="http://demowebshop.tricentis.com/";
 	
   @Test
-  @Description("Testing DemoWebShop site , login as admin")
+  @Description("Testing DemoWebShop site url and login , login as admin")
   @Severity(SeverityLevel.CRITICAL)
-  @Attachment(value="Landing page",type="png")
+  @Attachment(value="Landing page webshop",type="png")
   public void webShopLogin() {
 	  
 	  driver.get(url);

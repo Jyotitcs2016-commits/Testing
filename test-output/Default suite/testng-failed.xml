@@ -3,19 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.reporting.allure.Allure_Testng.NewTest">
+      <class name="com.reporting.allure.Allure_Testng.Test_Selenium_Grid">
         <methods>
-          <include name="afterSuite"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
-          <include name="beforeMethod"/>
-          <include name="webShopLogin"/>
-          <include name="beforeClass"/>
+          <include name="initiate_remote_driver"/>
         </methods>
-      </class> <!-- com.reporting.allure.Allure_Testng.NewTest -->
+      </class> <!-- com.reporting.allure.Allure_Testng.Test_Selenium_Grid -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

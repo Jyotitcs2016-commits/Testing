@@ -1,2 +1,3 @@
 com\reporting\allure\Allure_Testng\Page_WebShopDemo.class
 com\Utilities\AllureHelp.class
+com\reporting\allure\Allure_Testng\Test_Selenium_Grid.class

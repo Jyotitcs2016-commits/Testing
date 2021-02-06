@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test">
+  <test name="Test" parallel="true" thread-count="2">
     <classes>
       <class name="com.reporting.allure.Allure_Testng.Page_WebShopDemo"/>
+      <class name="com.reporting.allure.Allure_Testng.Test_Selenium_Grid"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
